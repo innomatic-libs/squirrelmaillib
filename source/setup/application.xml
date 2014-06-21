@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<application>
+
+	<definition>
+		<idname>squirrelmaillib</idname>
+		<release>
+			<version>1.4.0-1</version>
+			<date>2009/03/02</date>
+			<changesfile>CHANGES</changesfile>
+		</release>
+		<description>SquirrelMail code</description>
+		<category>libraries</category>
+		<iconfile></iconfile>
+		<dependencies>
+			<!-- <dependency></dependency> -->
+		</dependencies>
+		<options>
+			<!-- <option></option> -->
+		</options>
+		<legal>
+			<author>
+				<name>The SquirrelMail Project Team</name>
+				<email></email>
+				<web>http://www.squirrelmail.org/</web>
+			</author>
+			<copyright>Copyright (c) 1999-2003 The SquirrelMail Project Team</copyright>
+			<license>GPL</license>
+			<licensefile>LICENSE</licensefile>
+		</legal>
+		<support>
+			<supportemail>support@innomatica.it</supportemail>
+			<bugsemail>bugs@innomatica.it</bugsemail>
+			<maintainer>
+				<name>Alex Pagnoni</name>
+				<email>alex.pagnoni@innoteam.it</email>
+			</maintainer>
+		</support>
+	</definition>
+
+	<components>
+
+		<generalpreinstall file="generalpreinstall.php" />
+
+		<generalpreupdate file="generalpreupdate.php" />
+
+		<generalpostuninstall file="generalpostuninstall.php" />
+
+	</components>
+</application>
